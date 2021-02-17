@@ -1,0 +1,57 @@
+1612333668316	geckodriver	INFO	Listening on 127.0.0.1:57881
+1612333671354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cente\\AppData\\Local\\Temp\\rust_mozprofileVs7Mzl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612333673702	Marionette	INFO	Listening on port 57891
+1612333675395	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612333675408	Marionette	ERROR	[15] No reply from Marionette:Register
+1612333677492	Marionette	INFO	Stopped listening on port 57891
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612333677986	geckodriver	INFO	Listening on 127.0.0.1:57939
+1612333681029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cente\\AppData\\Local\\Temp\\rust_mozprofileYw8tGG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612333683763	Marionette	INFO	Listening on port 57948
+1612333684215	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612333684228	Marionette	ERROR	[15] No reply from Marionette:Register
+1612333690546	Marionette	INFO	Stopped listening on port 57948
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613372558669	geckodriver	INFO	Listening on 127.0.0.1:64929
+1613372561716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cente\\AppData\\Local\\Temp\\rust_mozprofileOLRSxZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613372564548	Marionette	INFO	Listening on port 64938
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613372564902	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613372564916	Marionette	ERROR	[15] No reply from Marionette:Register
+1613372574571	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:235:19
+TimedPromise@chrome://marionette/content/sync.js:220:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:418:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+send@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:81476
+ajax@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:77295
+s.ajax@https://admin-demo.nopcommerce.com/lib/jquery-migrate/jquery-migrate-3.1.0.min.js:2:3154
+init@https://admin-demo.nopcommerce.com/js/admin.navigation.js:56:11
+initOnce@https://admin-demo.nopcommerce.com/js/admin.navigation.js:90:17
+init@https://admin-demo.nopcommerce.com/js/admin.search.js:72:30
+@https://admin-demo.nopcommerce.com/Admin/Customer/List:148:46
+e@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29453
+l/</t<@https://admin-demo.nopcommerce.com/lib/jquery/jquery-3.4.1.min.js:2:29755
+1613372641755	Marionette	INFO	Stopped listening on port 64938
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\cente\\AppData\\Local\\Temp\\rust_mozprofileJYHHLY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613372580818	Marionette	INFO	Listening on port 64998
+1613372581241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613372581297	Marionette	ERROR	[15] No reply from Marionette:Register
+1613372589656	Marionette	INFO	Stopped listening on port 64998
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
