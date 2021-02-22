@@ -5,6 +5,7 @@ from pageObjects.LoginPage import LoginPage
 from utilities.readProperties import ReadConfig
 # Log 정보를 생성해주는 메소드
 from utilities.customLogger import LogGen
+import time
 
 class Test_001_Login:
     # config 파일에서 URL, ID, PW 정보를 가져옴
@@ -15,6 +16,7 @@ class Test_001_Login:
     # Log 생성을 위한 인스턴스
     logger = LogGen.loggen()
 
+    # Title 확인하는 Test
     @pytest.mark.regression
     def test_homePageTitle(self, setup):
         self.logger.info("********** Test_001_Login **********")
@@ -40,15 +42,19 @@ class Test_001_Login:
         self.logger.info("********** verifying login test **********")
         self.driver = setup
         self.driver.get(self.baseURL)
+        self.driver.maximize_window()
         self.lp = LoginPage(self.driver)
         # ID, PW 입력
         self.lp.setUserName(self.username)
         self.lp.setPassword(self.password)
         # 로긴 버튼 클릭
         self.lp.clickLogin()
+        # 대기시간 2초 설정
+        time.sleep(2)
         # 로긴 후 타이틀 정보 저장
         act_title = self.driver.title
-        if act_title == "SK open API":
+        member = self.driver.find_element_by_xpath('//*[@id="tempHide"]/div[2]/ul/li[2]/div/a/span[2]').text
+        if act_title == "SK open API" and member == self.username:
             assert True
             self.logger.info("********** login test is passed **********")
             self.driver.close()
